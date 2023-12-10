@@ -2,6 +2,7 @@
 
 ## Single Page Applications
 
+
 Single Page Applications (SPA) rely on a single webpage that is dynamically rewritten by client side scripting.
 They deliver a more native experience by providing faster transitions without loading new pages.
 Typically, SPAs interact with the backend data model using REST APIs. 
@@ -16,7 +17,7 @@ This results in several challenges:
 The above issues can be resolved by implementing a [Backend For Frontend (BFF) proxy](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-browser-based-apps#name-single-domain-browser-based) or [Token Handler Pattern](https://curity.io/resources/learn/the-token-handler-pattern/).
 
 ## Security
-Single Page Applications require some thought about security details.
+Single Page Applications require some thought abouhttps://github.com/pervorm3p/bff-proxy.gitt security details.
 
 ### Cross-Site Scripting
 Cross-site scripting (XSS) attacks rely on the injection of malicious client-side code.
